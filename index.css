@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("OBS.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
     }
 
     h1 {
