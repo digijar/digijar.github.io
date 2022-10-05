@@ -27,7 +27,9 @@
     <div class="container">
       <div class="header-text">
         <p>IS & DSA Major</p>
-        <h1>Hi, I'm <span>Jaron Chan</span> <br> from SMU!</h1>
+        <h1>Hi, I'm <span class="typewriter" onmouseover="showInfo()" onmouseout="hideInfo()">Jaron Chan !</span> <br> from SMU!</h1>
+
+        <p id="info" style="display:none">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tiny easter egg</p>
       </div>
     </div>
   </div>
@@ -206,5 +208,17 @@
 
   <script src="https://digijar.github.io/index.js"></script>
 
+  <script>
+    function showInfo() {
+    var info_para = document.getElementById("info");
+    console.log(info_para.style.display);
+    info_para.style.display = "";
+    }
+
+    function hideInfo() {
+        var info_para = document.getElementById("info");
+        info_para.style.display = "none";
+    }
+  </script>
 </body>
 </html>

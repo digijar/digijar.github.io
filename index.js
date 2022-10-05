@@ -1,3 +1,16 @@
+// ----- header ------
+function showInfo() {
+    var info_para = document.getElementById("info");
+    console.log(info_para.style.display);
+    info_para.style.display = "";
+}
+
+function hideInfo() {
+    var info_para = document.getElementById("info");
+    info_para.style.display = "none";
+}
+
+
 // ----- about ------
 
 var tablinks = document.getElementsByClassName("tab-links");
