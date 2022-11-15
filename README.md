@@ -1,1 +1,1 @@
-# digijar.github.io
+Welcome to digijar / Jaron's website!
